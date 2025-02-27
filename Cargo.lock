@@ -689,6 +689,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ollama_client"
+version = "0.1.0"
+dependencies = [
+ "rig-core",
+ "tokio",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.20.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
