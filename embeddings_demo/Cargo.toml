@@ -1,13 +1,7 @@
 [package]
-name = "rig-examples"
+name = "embeddings_demo"
 version = "0.1.0"
 edition = "2021"
-
-[workspace]
-members = [ "embeddings_demo",
-    "ollama_api",
-    "ollama_client"
-]
 
 [dependencies]
 rig-core = "0.9.0"
